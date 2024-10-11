@@ -49,10 +49,18 @@ So, in this project we are implementing **prediction models methods like SRCNN**
 
   And also resize both labels and LR images to 3 * 224 * 224 as later we are using VGG-16 model for better performance and we know that VGG-16 accepts images of spatial dimension of 224 * 224 .
 
+  ![](https://github.com/Srishti002/SRCNN/blob/main/Screenshot%202024-10-12%20021610.png)
+
+
   Normalize both LR images and labels.
 
-  ![](
+  ![](https://github.com/user-attachments/assets/5f7ad203-2795-4e13-ade1-27cc721918dc)
 
+- ### SRCNN Model:-
+  
+
+
+  
   
   
   
