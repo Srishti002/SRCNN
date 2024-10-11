@@ -100,7 +100,7 @@ So, in this project we are implementing **prediction models methods like SRCNN**
 
 - ### Results:-
   ![](https://github.com/Srishti002/SRCNN/blob/main/Screenshot%202024-10-12%20033451.png)
-  ![](
+  ![](https://github.com/Srishti002/SRCNN/blob/main/Screenshot%202024-10-12%20033513.png)
    
 
   
