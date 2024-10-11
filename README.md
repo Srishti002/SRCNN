@@ -84,6 +84,8 @@ So, in this project we are implementing **prediction models methods like SRCNN**
   > - The losses from multiple layers are often combined. Earlier layer captures low level features and deeper layers capture high level semantic information.
   > - The perceptual loss is often combined with pixel wise MSE loss for final optimization objective.
 
+  ![](https://github.com/Srishti002/SRCNN/blob/main/Screenshot%202024-10-12%20030818.png)
+
   
   
 
