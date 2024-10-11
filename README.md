@@ -57,6 +57,34 @@ So, in this project we are implementing **prediction models methods like SRCNN**
   ![](https://github.com/user-attachments/assets/5f7ad203-2795-4e13-ade1-27cc721918dc)
 
 - ### SRCNN Model:-
+
+  ![](https://github.com/Srishti002/SRCNN/blob/main/Screenshot%202024-10-12%20022432.png)
+
+  In general, the performance would improve if we increase the network width that is adding more filters and larger filter size could grasp richer structural information, which in turn lead to better results. Deeper 
+  networks do not always result in better performance.
+
+  Our first layer consists of 64 filters of size 9 * 9 * 3 as we are dealing with RGB image.
+
+  Second layer consists of 32 filters of size 1 * 1 * 64.
+
+  Third layer consists of 3 filters of size 5 * 5 * 32.
+
+- ### Loss Calculation:-
+  Here we are using both *'MSE Loss'* and *'Perceptual Loss'*.
+
+  For super resolution , model trained with a peceptual loss is able to better reconstruct fine details compared to methods trained with per pixel loss.
+
+  Perceptual loss is a type of loss function that aims to capture the perceptual differences between images , rather than just pixel wise differences. Perceptual differences refer to how humans visually perceive distinctions between images rather than just mathematical difference in pixel values. Twoo images can mathematically different but look very similar to humans or vice versa.
+
+  So, perceptual loss function aims to capture these differences by using features from pre trained network. Here we are using *'VGG-16 pre trained network'*.
+  
+  > - The target HR image and generated HR image are passed through pre trained network.
+  > - The network processes both images , producing feature maps at various layers.
+  > - For each selected layer , the feature maps of generated image and target image are compared. The compariosn is usually done by MSE between feature maps.
+  > - The losses from multiple layers are often combined. Earlier layer captures low level features and deeper layers capture high level semantic information.
+  > - The perceptual loss is often combined with pixel wise MSE loss for final optimization objective.
+
+  
   
 
 
