@@ -42,7 +42,9 @@ So, in this project we are implementing **prediction models methods like SRCNN**
   W3 corresponds to c filters of a size n2 × f3 × f3
 
 ## Step by Step Guide:-
+
 - ### Dataloading:-
+  
   We use *'BSD100'* dataset for this project. *'image_SRF_2'* as training set , *'image_SRF_3'* as validation set and *'image_SRF_4'* as testing set .
 
   While loading data we have to convert the LR images and their respective labels to Tensor form for further processing.
@@ -70,6 +72,7 @@ So, in this project we are implementing **prediction models methods like SRCNN**
   Third layer consists of 3 filters of size 5 * 5 * 32.
 
 - ### Loss Calculation:-
+  
   Here we are using both *'MSE Loss'* and *'Perceptual Loss'*.
 
   For super resolution , model trained with a peceptual loss is able to better reconstruct fine details compared to methods trained with per pixel loss.
@@ -89,6 +92,7 @@ So, in this project we are implementing **prediction models methods like SRCNN**
   ![](https://github.com/Srishti002/SRCNN/blob/main/Screenshot%202024-10-12%20031822.png)
 
 - ### Training:-
+  
   - Epochs = 20
   - Batch size = 1
   - Optimizer = Adam
@@ -99,6 +103,7 @@ So, in this project we are implementing **prediction models methods like SRCNN**
     ![](https://github.com/Srishti002/SRCNN/blob/main/Screenshot%202024-10-13%20021521.png)
 
 - ### Results:-
+ 
   - Training Set Result:-
     
     ![](https://github.com/Srishti002/SRCNN/blob/main/train_0_label.png)
@@ -112,6 +117,7 @@ So, in this project we are implementing **prediction models methods like SRCNN**
 
     ![](https://github.com/Srishti002/SRCNN/blob/main/train_4_label.png)
     ![](https://github.com/Srishti002/SRCNN/blob/main/Screenshot%202024-10-13%20003050.png)
+    
 
   - Test Set Results :-
 
