@@ -106,6 +106,9 @@ So, in this project we are implementing **prediction models methods like SRCNN**
 
     ![](https://github.com/Srishti002/SRCNN/blob/main/train_1_label.png)
     ![](https://github.com/Srishti002/SRCNN/blob/main/Screenshot%202024-10-13%20002905.png)
+
+    ![](https://github.com/Srishti002/SRCNN/blob/main/train_3_label.png)
+    ![]()
    
 
   
