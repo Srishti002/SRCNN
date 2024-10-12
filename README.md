@@ -94,9 +94,9 @@ So, in this project we are implementing **prediction models methods like SRCNN**
   - Optimizer = Adam
   - Learning rate = 0.001
     
-  ![]()
+    ![](https://github.com/Srishti002/SRCNN/blob/main/Screenshot%202024-10-13%20021455.png)
   
-  ![]()
+    ![]()
 
 - ### Results:-
   ![](https://github.com/Srishti002/SRCNN/blob/main/Screenshot%202024-10-12%20033451.png)
