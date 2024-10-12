@@ -101,7 +101,7 @@ So, in this project we are implementing **prediction models methods like SRCNN**
 - ### Results:-
   - Training Set Result:-
     
-    ![]()
+    ![](https://github.com/Srishti002/SRCNN/blob/main/train_0_label.png)
     ![]()
    
 
