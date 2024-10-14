@@ -1,4 +1,4 @@
-# SRCNN
+# SRCNN ( Super Resolution Convolutional Neural Network)
 ## Introduction
 There are four different approaches to super resolution in general. These are:-
 > 1. Patch based ( or example based):- This method work by using a database of low and high-resolution image patches to learn the mapping between them.
